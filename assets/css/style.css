@@ -903,7 +903,7 @@ footer .wrapper { text-align: center; }
 
   .main .container {
     display: grid;
-    grid-template-columns: 5fr 2fr;
+    grid-template-columns: 5fr;
     gap: 60px;
   }
 
