@@ -446,7 +446,7 @@ header .btn-group {
 }
 
 .blog-text,
-.profile-wrapper { display: none; }
+.profile-wrapper { display: block; }
 
 .blog .wrapper {
   display:         flex;
