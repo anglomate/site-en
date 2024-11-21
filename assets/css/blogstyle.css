@@ -839,7 +839,7 @@ footer .wrapper { text-align: center; }
   }
 
   .hero .btn-group {
-    justify-content: start;
+    justify-content: center;
     gap: 30px;
   }
 
