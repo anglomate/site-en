@@ -829,7 +829,7 @@ footer .wrapper { text-align: center; }
    * HERO 
    */
 
-  .hero { text-align: right; }
+  .hero { text-align: left; }
 
   .hero .container {
     display: grid;
