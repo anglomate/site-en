@@ -1,16 +1,4 @@
 /*-----------------------------------*\ 
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
-/*-----------------------------------*\ 
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
@@ -34,7 +22,7 @@
 
 }
 
-.light-theme {
+.dark-theme {
 
   /**
    * dark theme colors 
@@ -142,8 +130,6 @@ html {
 
 
 
-
-
 /*-----------------------------------*\ 
   #BASE STYLE
 \*-----------------------------------*/
@@ -179,8 +165,6 @@ html {
 .text-sm { font-size: var(--fs-4); }
 
 .text-tiny { font-size: var(--fs-5); }
-
-
 
 
 
@@ -221,8 +205,6 @@ html {
 
 
 
-
-
 /*-----------------------------------*\ 
   #Extra style for dark theme
 \*-----------------------------------*/
@@ -242,7 +224,6 @@ html {
 .dark-theme .load-more:hover { color: var(--white); }
 
 .dark-theme .aside .h2 { color: var(--foreground-primary); }
-
 
 
 
@@ -343,8 +324,6 @@ header .btn-group {
 
 
 
-
-
 /*-----------------------------------*\ 
   #HERO SECTION
 \*-----------------------------------*/
@@ -381,8 +360,6 @@ header .btn-group {
 }
 
 .hero .right { display: none; }
-
-
 
 
 
@@ -464,7 +441,7 @@ header .btn-group {
   display:     flex;
   align-items: center;
   gap: 5px;
-  color: var(--foreground-tertiary);
+  color: var(--foreground-secondary);
 }
 
 .blog .separator {
@@ -490,15 +467,11 @@ header .btn-group {
 
 
 
-
-
 /*-----------------------------------*\ 
   #ASIDE
 \*-----------------------------------*/
 
 .aside { display: none; }
-
-
 
 
 
@@ -553,8 +526,6 @@ footer .wrapper { text-align: center; }
 
 
 
-
-
 /*-----------------------------------*\ 
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -599,8 +570,6 @@ footer .wrapper { text-align: center; }
   }
 
 }
-
-
 
 
 
