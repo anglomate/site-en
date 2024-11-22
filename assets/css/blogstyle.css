@@ -425,6 +425,17 @@ header .btn-group {
 .blog-text,
 .profile-wrapper { display: block; }
 
+.blog-text {
+    color: var(--foreground-secondary);
+    font-size: var(--fs-4);
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+
 .blog .wrapper {
   display:         flex;
   justify-content: space-between;
@@ -684,8 +695,6 @@ footer .wrapper { text-align: center; }
 
 
 
-
-
 /**
  * responsive for larger than 768px screen
  */
@@ -699,8 +708,6 @@ footer .wrapper { text-align: center; }
   .container { max-width: 800px; }
 
 }
-
-
 
 
 
@@ -966,72 +973,6 @@ footer .wrapper { text-align: center; }
     color: var(--foreground-secondary);
     margin-bottom: 1rem;
   }
-
-  .social-link {
-    display:         flex;
-    justify-content: center;
-    align-items:     center;
-    gap: 10px;
-  }
-
-  .social-link .icon-box {
-    width:  45px;
-    height: 45px;
-    background: var(--action-secondary);
-    border-radius: 50%;
-    display:         flex;
-    justify-content: center;
-    align-items:     center;
-    font-size: 22px;
-  }
-
-  .social-link .discord { color: hsl(235, 86%, 65%); }
-
-  .social-link .twitter { color: hsl(203, 89%, 53%); }
-
-  .social-link .facebook { color: hsl(220, 46%, 48%); }
-  
-  .social-link .icon-box:hover {
-    background: var(--accent);
-    color: var(--white);
-  }
-
-  .newsletter {
-    position: sticky;
-    top: 3rem;
-    margin-bottom: 98px;
-  }
-
-  .newsletter p {
-    color: var(--foreground-secondary);
-    margin-bottom: 1rem;
-  }
-
-  .newsletter input {
-    border: none;
-    background: var(--action-primary);
-    display: block;
-    width: 100%;
-    padding: 0.5rem 1rem;
-    font: inherit;
-    color: var(--foreground-secondary);
-    border-radius: 5px;
-    margin-bottom: 1rem;
-  }
-
-  .newsletter input::placeholder { color: inherit; }
-
-  .newsletter input:focus {
-    outline: 2px solid;
-    outline-offset: 0;
-  }
-
-  .newsletter .btn-primary {
-    margin-inline: auto;
-    margin: auto; /* fallback for margin-inline */
-  }
-
-
 
   /**
    * FOOTER 
