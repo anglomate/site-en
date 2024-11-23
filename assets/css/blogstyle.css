@@ -367,7 +367,7 @@ header .btn-group {
 
 .main {
   background: var(--background-secondary);
-  padding: var(--py) 0;
+  padding: var(--py) 10;
 }
 
 .blog .h2 {
