@@ -434,7 +434,7 @@ header .btn-group {
     -webkit-box-orient: vertical;
     overflow: auto;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
 .blog .wrapper {
@@ -644,7 +644,7 @@ footer .wrapper { text-align: center; }
     -webkit-box-orient: vertical;
     overflow: auto;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .blog .wrapper-flex {
