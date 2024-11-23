@@ -422,7 +422,7 @@ header .btn-group {
 
 .blog-text-title .h3 {
   color: var(--foreground-secondary);
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
 }
 
 .blog-text,
@@ -632,7 +632,7 @@ footer .wrapper { text-align: center; }
 
   .blog-text-title .h3 {
   color: var(--foreground-secondary);
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
 }
 
   .blog-text,
