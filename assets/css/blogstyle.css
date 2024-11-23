@@ -422,7 +422,6 @@ header .btn-group {
 
 .blog-text-title .h3 {
   color: var(--foreground-secondary);
-  margin-bottom: 10rem;
 }
 
 .blog-text,
@@ -434,7 +433,8 @@ header .btn-group {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: auto;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 
 .blog .wrapper {
@@ -632,7 +632,6 @@ footer .wrapper { text-align: center; }
 
   .blog-text-title .h3 {
   color: var(--foreground-secondary);
-  margin-bottom: 10rem;
 }
 
   .blog-text,
@@ -644,7 +643,8 @@ footer .wrapper { text-align: center; }
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: auto;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 
   .blog .wrapper-flex {
