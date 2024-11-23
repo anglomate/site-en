@@ -420,6 +420,11 @@ header .btn-group {
   text-decoration-thickness: 2px;
 }
 
+.blog-text-title .h3 {
+  color: var(--foreground-secondary);
+  margin-bottom: 2rem;
+}
+
 .blog-text,
 .profile-wrapper { display: block; }
 
@@ -624,6 +629,11 @@ footer .wrapper { text-align: center; }
     height: 100%;
     border-radius: 5px;
   }
+
+  .blog-text-title .h3 {
+  color: var(--foreground-secondary);
+  margin-bottom: 2rem;
+}
 
   .blog-text,
   .profile-wrapper { display: block; }
